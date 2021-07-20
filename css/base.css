@@ -1,0 +1,15 @@
+html, body, h1, h2, h3, h4, h5, h6 p, div, form, input, textarea{margin: 0; padding: 0; box-sizing: border-box;}
+img{vertical-align: bottom;}
+
+/* font-weight: normal, bold, bolder, light,lighter OR 100, 200, 300, 400... */
+h1, h2, h3, h4, h5, h6 {font-weight: inherit;}
+
+/* text-decoration: none 링크 언더라인 삭제*/
+a {color: inherit; text-decoration: none;}
+
+.clear::after{display: block; content: ''; clear: both;}
+
+/* .w100: 부모의 크기에 맞추어라 */
+/* .mw100: 자기 크기에 맞추어라 */
+.w100{width: 100%;}
+.mw100{max-width: 100%;}

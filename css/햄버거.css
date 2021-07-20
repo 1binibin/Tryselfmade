@@ -1,0 +1,21 @@
+/*****************  common*****************/
+html, body{height: 1000px; width: 1000px;}
+a {padding: 8px 16px; font-size: 18px;}
+.wrapper{width: 1000px; margin: auto;}
+
+/***************** header-wrapper *****************/
+.header-wrapper {padding: 8px 16px;}
+.header-wrapper .header {background-color: #fff;}
+.header-wrapper .navi-wrap{float: right;}
+
+/******************* main-wapper *******************/
+.main-wrapper {margin-bottom: 36px;}
+
+/********************* about-wrapper  ******************/
+.about-wrapper .wrapper{width: 49.9999%; padding: auto;}
+.about-wrapper .wrapper .table-wrap{float: left; }
+.about-wrapper .wrapper .about-wrap{float: right; }
+.about-wrapper .wrapper .about-wrap .content{text-align: center; text-align: justify; font-size: 15px;}
+
+
+/******************** menu-wrapper *****************/
