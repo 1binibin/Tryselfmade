@@ -1,21 +1,28 @@
 /*****************  common*****************/
-html, body{height: 1000px; width: 1000px;}
-a {padding: 8px 16px; font-size: 18px;}
-.wrapper{width: 1000px; margin: auto;}
-
+img{max-width: 100%;}
+p {margin-top: 16px;}
+h2.title { text-align: center;  margin-bottom: 36px; font-size: 36px; letter-spacing: 4px;}
+.wrapper{margin: auto;}
 /***************** header-wrapper *****************/
-.header-wrapper {padding: 8px 16px;}
-.header-wrapper .header {background-color: #fff;}
-.header-wrapper .navi-wrap{float: right;}
-
+.header-wrapper .header {float: left; letter-spacing: 4px; font-size: 15px; ; padding: 20px 16px;}
+/* .header-wrapper .header-wrap {padding: 8px 16px;} */
+.header-wrapper .navi-wrap { float: right; padding: 16px;}
+.header-wrapper .navi {float: left; padding: 8px 16px; letter-spacing: 4px; font-size: 15px;}
 /******************* main-wapper *******************/
-.main-wrapper {margin-bottom: 36px;}
-
+.main-wrapper{margin-bottom: 36px;}
 /********************* about-wrapper  ******************/
-.about-wrapper .wrapper{width: 49.9999%; padding: auto;}
-.about-wrapper .wrapper .table-wrap{float: left; }
-.about-wrapper .wrapper .about-wrap{float: right; }
-.about-wrapper .wrapper .about-wrap .content{text-align: center; text-align: justify; font-size: 15px;}
+.about-wrapper .wrapper{}
+.about-wrapper .wrapper .about{float: right; padding: 12px 24px;}
+.about-wrapper .wrapper .about .seasonal{background-color: #f1f1f1; color: #000;}
+.about-wrapper .wrapper .table{float: left; width: 49.9999%;}
+.about-wrapper .wrapper .about{width:49.9999%; margin: 0 auto;}
+.about-wrapper  h2.title { text-align: center;  margin-bottom: 36px; font-size: 36px; letter-spacing: 4px;}
+.about-wrapper  h3.title { margin:20px; text-align: center; letter-spacing: 4px; }
+.about-wrapper  p {text-align: center; text-align: justify; line-height: 1.5;}
+
 
 
 /******************** menu-wrapper *****************/
+.menu-wrapper .wrapper .menu{float: left;}
+.menu-wrapper .wrapper .menu h2{float: left;}
+.menu-wrapper .wrapper .food{float: right}
