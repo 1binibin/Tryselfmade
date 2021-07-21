@@ -4,7 +4,9 @@ img{max-width: 100%;}
 p {margin-top: 16px;}
 h2.title { text-align: center;  margin-bottom: 36px; font-size: 36px; letter-spacing: 4px;}
 .wrapper{margin: auto;}
-/***************** header-wrapper *****************/
+/********************** main-wrapper  *********************/
+.main-wrapper{max-width: 1000px; margin: 2px 30px; max-width: 100%;}
+/******************************** header-wrapper *****************/
 .header-wrapper .header {float: left; letter-spacing: 4px; font-size: 15px; ; padding: 20px 16px;}
 /* .header-wrapper .header-wrap {padding: 8px 16px;} */
 .header-wrapper .navi-wrap { float: right; padding: 16px;}
