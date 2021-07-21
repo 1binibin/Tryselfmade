@@ -1,31 +1,46 @@
 /*****************  common*****************/
-.wrapper{width: 1400px;}
-img{max-width: 100%;}
-p {margin-top: 16px;}
-h2.title { text-align: center;  margin-bottom: 36px; font-size: 36px; letter-spacing: 4px;}
-.wrapper{margin: auto;}
-/********************** main-wrapper  *********************/
-.main-wrapper{max-width: 1000px; margin: 2px 30px; max-width: 100%;}
+html, body {width:1662px; height: 5000px;}
+.wrapper {max-width: 800px; margin: auto;}
+.block {display: block; }
+.letter{letter-spacing: 5px;}
+.fnt {font-size: 15px; color: #757575;}
 /******************************** header-wrapper *****************/
-.header-wrapper .header {float: left; letter-spacing: 4px; font-size: 15px; ; padding: 20px 16px;}
-/* .header-wrapper .header-wrap {padding: 8px 16px;} */
-.header-wrapper .navi-wrap { float: right; padding: 16px;}
-.header-wrapper .navi {float: left; padding: 8px 16px; letter-spacing: 4px; font-size: 15px;}
-/******************* main-wapper *******************/
-.main-wrapper{margin-bottom: 36px;}
+
+.header-wrapper { width:100%; color: black;background-color: #fff;; position: fixed; z-index: 99;  top: 0; left: 0;}
+.header-wrapper .navi-wrap {}
+.header-wrapper .navi-wrap {background-color: #fff;}
+.header-wrapper .navi-wrap .logo {padding: 8px 16px; letter-spacing: 4px;}
+.header-wrapper .navi-wrap a {display:block;float: left;}
+.header-wrapper .navi-wrap .navi-wp {float: right;}
+.header-wrapper .navi-wrap .navi {padding: 8px 16px; letter-spacing: 4px;}
+
+/********************** main-wrapper  *********************/
+
+.main-wrapper .main-wrap .main{padding: 0 30px; margin:  auto; width: 100%;}
+
+
 /********************* about-wrapper  ******************/
-.about-wrapper .wrapper{}
-.about-wrapper .wrapper .about{float: right; padding: 12px 24px;}
-.about-wrapper .wrapper .about .seasonal{background-color: #f1f1f1; color: #000;}
-.about-wrapper .wrapper .table{float: left; width: 49.9999%;}
-.about-wrapper .wrapper .about{width:49.9999%; margin: 0 auto;}
-.about-wrapper  h2.title { text-align: center;  margin-bottom: 36px; font-size: 36px; letter-spacing: 4px;}
-.about-wrapper  h3.title { margin:20px; text-align: center; letter-spacing: 4px; }
-.about-wrapper  p {text-align: center; text-align: justify; line-height: 1.5;}
 
-
-
+.about-wrapper {width: 1100px; margin: auto; padding: 64px;}
+.about-wrapper .about-wrap .table {float:left; width:48%; padding: 12px 24px;}
+.about-wrapper .about-wrap .about {float: right; width: 48%; text-align: center; text-align: justify;}
+.about-wrapper .about-wrap .about h2.title { letter-spacing:5px; text-align: center; margin: 10px 0;font-size: 36px;}
+.about-wrapper .about-wrap .about h5.title { letter-spacing:5px; text-align: center; margin: 10px 0; font-size: 18px;}
+.about-wrapper .about-wrap .about p { line-height: 1.5; font-size:18px;}
+.about-wrapper .about-wrap .about p.color {color: #757575;}
+.about-wrapper .about-wrap {margin-bottom: 26px;}
 /******************** menu-wrapper *****************/
-.menu-wrapper .wrapper .menu{float: left;}
-.menu-wrapper .wrapper .menu h2{float: left;}
-.menu-wrapper .wrapper .food{float: right}
+.menu-wrapper{width: 1100px;margin: auto;}
+.menu-wrapper .menu-wrap {padding: 64px; margin: auto;}
+.menu-wrapper .menu-wrap .menu { width: 49%; float: left;}
+.menu-wrapper .menu-wrap .table2 { width: 49%; float: right;}
+.menu-wrapper .menu-wrap .menu h1{ font-size: 36px; text-align: center; margin: 10px 0; letter-spacing: 4px;}
+.menu-wrapper .menu-wrap .menu h3{font-size: 20px; }
+.menu-wrapper .menu-wrap .menu .content {text-align: left;}
+/* *******************.contact-wrapper.************ */
+.contact-wrapper{width:1100px; margin: auto; padding: 64px 16px;}
+.contact-wrapper .input-wrap { }
+.contact-wrapper .contact-wrap p.content {color: #607d8b; font-size: 18px; font-weight: bolder;}
+.contact-wrapper .contact-wrap h1.block{font-size: 36px; margin: 10px 0;}
+.contact-wrapper .contact-wrap:nth-child(2) {font-size: 15px;}
+.contact-wrapper .contact-wrap .input-wrap input{width: 100%; }
