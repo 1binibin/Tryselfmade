@@ -1,6 +1,6 @@
 /*****************  common*****************/
 html, body {width:1662px;}
-.wrapper {max-width: 800px; margin: auto;}
+.wrapper {max-width: 1200px; margin: auto;}
 .block {display: block; }
 .letter{letter-spacing: 5px;}
 .fnt {font-size: 15px; color: #757575;}
@@ -15,9 +15,9 @@ html, body {width:1662px;}
 .header-wrapper .navi-wrap .navi {padding: 8px 16px; letter-spacing: 4px; font-size: 15px;}
 
 /********************** main-wrapper  *********************/
-
-.main-wrapper .main-wrap .main{ width: 100%; position: relative; top: 0; left: 0; z-index: 98;}
-.main-wrapper .main-wrap .main .le{ width: 100%; position: absolute; bottom: 10px; left: 10px; z-index: 98; font-size: 40px; padding: 12px 24px; letter-spacing: 4px; color: #607d8b; opacity: .7;}
+.main-wrapper .main-wrap {width:100%; position: relative;}
+.main-wrapper .main-wrap .main{ width: 100%;}
+.main-wrapper .main-wrap .main h2{ width: 100%; position: absolute; left: 0; top: 0; font-size: 40px; padding: 12px 24px; letter-spacing: 4px; color: #607d8b; opacity: .7;}
 
 
 
